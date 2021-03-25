@@ -14,7 +14,7 @@ setup(
     packages=['pytest_cassandra'],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     install_requires=['pytest>=4.2.0',
-                      'PyYAML==5.1',
+                      'PyYAML==5.4',
                       'cassandra-driver==3.17.0',
                       'configparser'],
     classifiers=[
